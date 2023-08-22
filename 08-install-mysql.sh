@@ -10,7 +10,7 @@ then
     echo "ERROR::Please run this script with root access"
     exit 1
 # else
-#   ech0 "INFO::you are root user"
+#   echo "INFO::you are root user"
 fi    
 
 yum install mysql-y 
