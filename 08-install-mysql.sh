@@ -12,3 +12,5 @@ then
 # else
 #   ech0 "INFO::you are root user"
 fi    
+
+yum install mysql-y 
