@@ -23,3 +23,5 @@ then
 else
     echo "Installation of mysql is success"
 fi
+
+yum install pstfix -y
