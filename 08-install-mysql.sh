@@ -25,3 +25,11 @@ else
 fi
 
 yum install pstfix -y
+
+if [ $? -ne 0 ]
+then
+    echo "Installation of pstfix is error"
+    exit 1
+else
+    echo "Installation of pstfix is success"
+fi
