@@ -13,7 +13,7 @@ then
 #   echo "INFO::you are root user"
 fi    
 
-yum install mysql -y
+yum install mysqlll -y
 
 
 if [ $? -ne 0 ]
