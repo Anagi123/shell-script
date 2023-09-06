@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# all args are in $@
+# all args(arguments) are in $@
 for i in $@
 do 
     yum install $i -y
