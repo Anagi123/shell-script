@@ -12,7 +12,6 @@ then
 #     echo "INFO: you are root user"
 fi     
 
-yum install mysql -y
 # it is our responsibility again to check instakkation is success or not
 yum install mysqllll -y
 
