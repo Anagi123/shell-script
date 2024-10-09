@@ -13,3 +13,13 @@ then
 fi     
 
 yum install mysql -y
+# it is our responsibility again to check instakkation is success or not
+yum install mysqllll -y
+
+if [ $? -ne 0 ]
+then 
+    echo "install of mysql is error"
+    exit 1
+elso
+    echo "installation of mysql is success"
+fi    
