@@ -12,7 +12,7 @@ then
 #     echo "INFO: you are root user"
 fi     
 
-# it is our responsibility again to check instakkation is success or not
+# it is our responsibility again to check installation is success or not
 yum install mysql -y
 
 if [ $? -ne 0 ]
@@ -21,4 +21,14 @@ then
     exit 1
 else    
     echo "installation of mysql is success"
-fi    
+fi   
+
+yum install postfix -y
+
+if [ $? -ne 0 ]
+then 
+    echo "install of postfix is error"
+    exit 2
+else
+    echo "installation of postfix is success"
+fi         
